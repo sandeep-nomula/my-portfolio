@@ -12,7 +12,6 @@ import {
 import { 
   SiTypescript,
   SiJavascript,
-  SiPython,
   SiMongodb,
   SiPostgresql,
   SiRedux,

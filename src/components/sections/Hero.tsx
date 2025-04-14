@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 import { theme } from '../../styles/theme';
 import { keyframes } from '@emotion/react';
 import { lazy, Suspense } from 'react';
-const FaGithub = lazy(() => import('react-icons/fa').then(mod => ({ default: mod.FaGithub })));
 const FaLinkedin = lazy(() => import('react-icons/fa').then(mod => ({ default: mod.FaLinkedin })));
 const FaEnvelope = lazy(() => import('react-icons/fa').then(mod => ({ default: mod.FaEnvelope })));
 

@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 import { theme } from '../../styles/theme';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const ProjectsSection = styled.section`
   min-height: 100vh;
@@ -153,27 +152,27 @@ const TechTag = styled.span`
   }
 `;
 
-const ProjectLinks = styled.div`
-  display: flex;
-  gap: ${theme.spacing.md};
-  margin-top: auto;
-  padding-top: ${theme.spacing.md};
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+// const ProjectLinks = styled.div`
+//   display: flex;
+//   gap: ${theme.spacing.md};
+//   margin-top: auto;
+//   padding-top: ${theme.spacing.md};
+//   border-top: 1px solid rgba(255, 255, 255, 0.05);
   
-  a {
-    color: ${theme.colors.accent};
-    font-size: clamp(1rem, 2vw, 1.2rem);
-    transition: all ${theme.transitions.default};
-    padding: ${theme.spacing.xs};
-    border-radius: 4px;
+//   a {
+//     color: ${theme.colors.accent};
+//     font-size: clamp(1rem, 2vw, 1.2rem);
+//     transition: all ${theme.transitions.default};
+//     padding: ${theme.spacing.xs};
+//     border-radius: 4px;
     
-    &:hover {
-      color: ${theme.colors.light};
-      background: ${theme.colors.glass.card};
-      transform: translateY(-2px);
-    }
-  }
-`;
+//     &:hover {
+//       color: ${theme.colors.light};
+//       background: ${theme.colors.glass.card};
+//       transform: translateY(-2px);
+//     }
+//   }
+// `;
 
 const projects = [
   {
