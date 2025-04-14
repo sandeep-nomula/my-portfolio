@@ -5,7 +5,7 @@ import { visualizer } from 'rollup-plugin-visualizer'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/sandeep-nomula/',
+  base: '/my-portfolio/',
   plugins: [
     react({
       babel: {
