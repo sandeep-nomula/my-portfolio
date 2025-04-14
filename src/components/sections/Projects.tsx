@@ -260,11 +260,11 @@ const Projects = () => {
               role="listitem"
               aria-labelledby={`project-title-${project.id}`}
             >
-              <ProjectImage 
+              {/* <ProjectImage 
                 imageUrl={project.image} 
                 role="img" 
                 aria-label={`Screenshot of ${project.title}`} 
-              />
+              /> */}
               <ProjectContent>
                 <ProjectTitle id={`project-title-${project.id}`}>{project.title}</ProjectTitle>
                 <ProjectDescription>{project.description}</ProjectDescription>

@@ -64,6 +64,7 @@ const Title = styled.h1`
   line-height: 1.1;
   letter-spacing: -0.02em;
   white-space: nowrap;
+  text-wrap: auto;
 `;
 
 const Subtitle = styled.h2`
@@ -121,7 +122,7 @@ const SocialLinks = styled.div`
 
 export const Hero = () => {
   return (
-    <HeroSection id="hero" role="region" aria-label="Introduction">
+    <HeroSection id="about" role="region" aria-label="Introduction">
       <div className="container">
         <HeroContent>
           <div>

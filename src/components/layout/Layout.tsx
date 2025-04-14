@@ -88,6 +88,11 @@ const Nav = styled.nav`
     max-width: 1200px;
     margin: 0 auto;
     width: 90%;
+    flex-direction: row;
+
+    @media (max-width: ${theme.breakpoints.sm}) {
+      flex-direction: column;
+    }
   }
 `;
 
