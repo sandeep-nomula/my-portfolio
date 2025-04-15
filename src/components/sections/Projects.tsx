@@ -69,28 +69,28 @@ const ProjectCard = styled(motion.div)`
   }
 `;
 
-const ProjectImage = styled.div<{ imageUrl: string }>`
-  width: 100%;
-  height: 180px;
-  background-image: url(${props => props.imageUrl});
-  background-size: cover;
-  background-position: center;
-  position: relative;
+// const ProjectImage = styled.div<{ imageUrl: string }>`
+//   width: 100%;
+//   height: 180px;
+//   background-image: url(${props => props.imageUrl});
+//   background-size: cover;
+//   background-position: center;
+//   position: relative;
 
-  @media (min-width: ${theme.breakpoints.md}) {
-    height: 220px;
-  }
+//   @media (min-width: ${theme.breakpoints.md}) {
+//     height: 220px;
+//   }
 
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 40%;
-    background: linear-gradient(to top, ${theme.colors.glass.card}, transparent);
-  }
-`;
+//   &::after {
+//     content: '';
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 40%;
+//     background: linear-gradient(to top, ${theme.colors.glass.card}, transparent);
+//   }
+// `;
 
 const ProjectContent = styled.div`
   padding: ${theme.spacing.md};
